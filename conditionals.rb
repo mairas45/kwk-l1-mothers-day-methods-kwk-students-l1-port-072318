@@ -1,3 +1,4 @@
+puts "what's your grade?"
 grade = gets.strip.upcase
 
 if grade.to_s == "A" || grade.to_i > 90
