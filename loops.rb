@@ -19,3 +19,13 @@ puts "you have #{10 - andrews_texts_to_his_friend} texts left"
   andrews_texts_to_his_friend +=1 
 
 end 
+
+puts "you.."
+sleep (0.5)
+puts "have"
+sleep (0.5)
+puts "texted"
+sleep (0.5)
+puts "too"
+sleep (0.5)
+puts "much"
