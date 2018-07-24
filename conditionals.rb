@@ -3,7 +3,7 @@ grade = gets.strip.upcase
 
 if grade.to_s == "A" || grade.to_i > 90
   puts "awesome job! ;)"
-elsif grade.to_s =="B" || 80 <= grade.to_i <= 89
+elsif grade.to_s =="B" || (grade.to_i >= 80 && grade.to_i <=89)
   puts "good job"
 elsif grade.to_s == "C"
   puts "you are passing!"
